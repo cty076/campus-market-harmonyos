@@ -8,7 +8,7 @@ import { GoodsCardComponent } from './GoodsCardComponent';
 @Component
 export struct GoodsListComponent {
   @ObjectLink dataSource: CampusGoodsDataSource;
-  currentRegionId: string = 'all';
+  @Prop currentRegionId: string = 'all';
   onLoadMore: () => void = () => {};
 
   build() {

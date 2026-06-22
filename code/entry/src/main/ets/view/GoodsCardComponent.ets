@@ -17,7 +17,7 @@ import { FavoriteStore } from '../viewmodel/FavoriteStore';
 @Component
 export struct GoodsCardComponent {
   goods: GoodsModel = campusGoodsList[0];
-  currentRegionId: string = 'all';
+  @Prop currentRegionId: string = 'all';
 
   build() {
     Row() {

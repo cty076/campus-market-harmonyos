@@ -7,6 +7,7 @@ import { PullRefreshLayout } from './PullRefreshLayout';
 export struct CampusTabBar {
   @Link @Watch('onKeywordChange') keyword: string;
   @Link @Watch('onRegionChange') regionId: string;
+  @Prop currentRegionId: string = 'all';
   @State currentIndex: number = 0;
   @State refreshStatus: boolean = false;
   @State currentCategory: string = '全部';
@@ -86,7 +87,7 @@ export struct CampusTabBar {
             }
             GoodsListComponent({
               dataSource: this.dataSource,
-              currentRegionId: this.regionId,
+              currentRegionId: this.currentRegionId,
               onLoadMore: () => {
                 this.dataSource.loadMore();
               }

@@ -16,6 +16,7 @@ const DOMAIN = 0x0000;
 struct Index {
   @State keyword: string = '';
   @State regionId: string = 'all';
+  @State locatedRegionId: string = 'all';
   @State currentRegion: CampusRegion = defaultRegion;
   @State locationStatus: LocationStatus = LocationStatus.READY;
   @State locationMessage: string = '点击重新定位后，将使用高德定位识别你所在的校园区域';
@@ -37,6 +38,7 @@ struct Index {
 
     if (result.point === undefined) {
       this.currentRegion = defaultRegion;
+      this.locatedRegionId = defaultRegion.id;
       this.regionId = defaultRegion.id;
       this.updateRegionSummary();
       return;
@@ -44,6 +46,7 @@ struct Index {
 
     const matchedRegion = findRegionByPoint(result.point, campusRegions);
     this.currentRegion = matchedRegion === undefined ? defaultRegion : matchedRegion;
+    this.locatedRegionId = this.currentRegion.id;
     this.regionId = this.currentRegion.id;
     this.updateRegionSummary();
     hilog.info(
@@ -58,10 +61,10 @@ struct Index {
 
   private applyManualRegion(regionId: string): void {
     const matchedRegion = campusRegions.find((region: CampusRegion) => region.id === regionId);
-    this.currentRegion = matchedRegion === undefined ? defaultRegion : matchedRegion;
-    this.regionId = this.currentRegion.id;
+    const selectedRegion = matchedRegion === undefined ? defaultRegion : matchedRegion;
+    this.regionId = selectedRegion.id;
     this.locationStatus = LocationStatus.SUCCESS;
-    this.locationMessage = regionId === 'all' ? '已手动切换为全部商品' : `已手动切换为${this.currentRegion.shortName}`;
+    this.locationMessage = regionId === 'all' ? '已手动切换为全部商品' : `已手动切换为${selectedRegion.shortName}`;
     this.updateRegionSummary();
   }
 
@@ -126,7 +129,7 @@ struct Index {
         })
           .margin({ bottom: 10 })
 
-        CampusTabBar({ keyword: $keyword, regionId: $regionId })
+        CampusTabBar({ keyword: $keyword, regionId: $regionId, currentRegionId: this.locatedRegionId })
       }
       .width(FULL_SIZE)
       .height(FULL_SIZE)
