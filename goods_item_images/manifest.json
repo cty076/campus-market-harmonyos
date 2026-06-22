@@ -1,0 +1,291 @@
+{
+  "count": 22,
+  "items": [
+    {
+      "id": "goods-001",
+      "name": "?????????",
+      "file": "goods-001.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\b16d7122846186fdada33cd7df1647ef.jpg",
+      "sourceIndex": 16,
+      "reason": "??????",
+      "originalSize": {
+        "width": 4096,
+        "height": 3072
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-002",
+      "name": "?????????",
+      "file": "goods-002.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\ac1e6447c91691b49dc6bcff708348ee.jpeg",
+      "sourceIndex": 15,
+      "reason": "???????",
+      "originalSize": {
+        "width": 500,
+        "height": 500
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-003",
+      "name": "????????",
+      "file": "goods-003.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\556c70931e857101f71fa71069e5c0b7.png",
+      "sourceIndex": 9,
+      "reason": "?????",
+      "originalSize": {
+        "width": 1080,
+        "height": 1890
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-004",
+      "name": "??????",
+      "file": "goods-004.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\12b34c71c0ebfe5c7fbdb4ad1fa606ba.jpg",
+      "sourceIndex": 4,
+      "reason": "????",
+      "originalSize": {
+        "width": 1080,
+        "height": 1440
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-005",
+      "name": "??????",
+      "file": "goods-005.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\87bd79f61b937b9c34b14107d43e3f77.png",
+      "sourceIndex": 11,
+      "reason": "??",
+      "originalSize": {
+        "width": 800,
+        "height": 800
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-006",
+      "name": "????",
+      "file": "goods-006.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\a79862d0ff0bcfdaf9c56861f4f6b593.jpeg",
+      "sourceIndex": 14,
+      "reason": "??",
+      "originalSize": {
+        "width": 800,
+        "height": 800
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-007",
+      "name": "???? 87 ?",
+      "file": "goods-007.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\c1093e1556808fdb1765732dcd9b679b.jpg",
+      "sourceIndex": 17,
+      "reason": "????",
+      "originalSize": {
+        "width": 3024,
+        "height": 3024
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-008",
+      "name": "???????",
+      "file": "goods-008.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\2d6830a0d21430c703ff8e8b1a5dab7b.jpeg",
+      "sourceIndex": 7,
+      "reason": "?????",
+      "originalSize": {
+        "width": 800,
+        "height": 1157
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-009",
+      "name": "???????",
+      "file": "goods-009.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\d700a5f3fc66ccbc9aa7e2685f2c4645.jpeg",
+      "sourceIndex": 18,
+      "reason": "???????",
+      "originalSize": {
+        "width": 1188,
+        "height": 778
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-010",
+      "name": "?????",
+      "file": "goods-010.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\0ec2fd6d0dd1fac5fb5eaf599f225f01.jpeg",
+      "sourceIndex": 3,
+      "reason": "????",
+      "originalSize": {
+        "width": 500,
+        "height": 500
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-011",
+      "name": "??????",
+      "file": "goods-011.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\f2da2045158507777f931a6b7acac4a3.png",
+      "sourceIndex": 20,
+      "reason": "??????",
+      "originalSize": {
+        "width": 3543,
+        "height": 3543
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-012",
+      "name": "??????",
+      "file": "goods-012.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\261b8b39d9cc71f1383be920cee48403.png",
+      "sourceIndex": 6,
+      "reason": "????",
+      "originalSize": {
+        "width": 1080,
+        "height": 1440
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-013",
+      "name": "????????",
+      "file": "goods-013.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\f892a9f44b59a4f3cfa18bb03ce7d393.jpeg",
+      "sourceIndex": 22,
+      "reason": "????????",
+      "originalSize": {
+        "width": 500,
+        "height": 500
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-014",
+      "name": "?????????",
+      "file": "goods-014.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\1fa332500773fb33b486ecb23fe6f6dc.jpeg",
+      "sourceIndex": 5,
+      "reason": "???????",
+      "originalSize": {
+        "width": 800,
+        "height": 1093
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-015",
+      "name": "USB-C ???",
+      "file": "goods-015.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\004506accc44002d933db82e93921e48.jpg",
+      "sourceIndex": 1,
+      "reason": "USB-C ???",
+      "originalSize": {
+        "width": 1920,
+        "height": 1920
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-016",
+      "name": "???????",
+      "file": "goods-016.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\f66ed347e9b11c332501d9fe05a5ff6d.jpg",
+      "sourceIndex": 21,
+      "reason": "?????",
+      "originalSize": {
+        "width": 1000,
+        "height": 1000
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-017",
+      "name": "?????",
+      "file": "goods-017.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\6c7919ba46c0e1aff5730193aa098d29.jpg",
+      "sourceIndex": 10,
+      "reason": "??",
+      "originalSize": {
+        "width": 2084,
+        "height": 2778
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-018",
+      "name": "???????",
+      "file": "goods-018.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\43271a6c293a8bc951372c9c1b7c957c.png",
+      "sourceIndex": 8,
+      "reason": "?????",
+      "originalSize": {
+        "width": 800,
+        "height": 800
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-019",
+      "name": "????????",
+      "file": "goods-019.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\0b5ea3787c3f5a796e01b3d0ef1c1bbd.jpeg",
+      "sourceIndex": 2,
+      "reason": "??????",
+      "originalSize": {
+        "width": 1067,
+        "height": 800
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-020",
+      "name": "???????",
+      "file": "goods-020.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\949e57a52e2aabf76cdeb5b438258d0b.png",
+      "sourceIndex": 12,
+      "reason": "????",
+      "originalSize": {
+        "width": 956,
+        "height": 1060
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-021",
+      "name": "?????",
+      "file": "goods-021.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\98206deed7e7e75e9e1dcc5587832952.jpg",
+      "sourceIndex": 13,
+      "reason": "?????",
+      "originalSize": {
+        "width": 2217,
+        "height": 2217
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    },
+    {
+      "id": "goods-022",
+      "name": "??????",
+      "file": "goods-022.png",
+      "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\f1ac9a8c541631cddf5641efe47c03d5.jpg",
+      "sourceIndex": 19,
+      "reason": "???",
+      "originalSize": {
+        "width": 3348,
+        "height": 3348
+      },
+      "processed": "center-crop to 256x256 PNG, no stretching"
+    }
+  ]
+}

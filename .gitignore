@@ -1,0 +1,32 @@
+# HarmonyOS / DevEco generated files
+**/build/
+**/.hvigor/
+**/oh_modules/
+**/node_modules/
+**/.cxx/
+**/.test/
+**/.appanalyzer/
+
+# IDE / local machine files
+**/.idea/
+local.properties
+.DS_Store
+Thumbs.db
+
+# Build outputs and packages
+*.hap
+*.app
+*.har
+*.hsp
+code/layout_*.json
+
+# Downloaded reference material and large local-only assets
+reference/
+goods_item_images/unmatched/
+download_first22_sheet.jpg
+download_preview_sheet.jpg
+《移动应用开发》课程大作业v2026*.pdf
+
+# Local/private API config variants
+*.local.ets
+*.local.json

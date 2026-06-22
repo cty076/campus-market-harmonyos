@@ -1,0 +1,13 @@
+{
+  "id": "goods-012",
+  "name": "??????",
+  "file": "goods-012.png",
+  "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\261b8b39d9cc71f1383be920cee48403.png",
+  "sourceIndex": 6,
+  "reason": "????",
+  "originalSize": {
+    "width": 1080,
+    "height": 1440
+  },
+  "processed": "center-crop to 256x256 PNG, no stretching"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "goods-015",
+  "name": "USB-C ???",
+  "file": "goods-015.png",
+  "sourceFile": "C:\\Users\\cheny\\Downloads\\下载\\004506accc44002d933db82e93921e48.jpg",
+  "sourceIndex": 1,
+  "reason": "USB-C ???",
+  "originalSize": {
+    "width": 1920,
+    "height": 1920
+  },
+  "processed": "center-crop to 256x256 PNG, no stretching"
+}

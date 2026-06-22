@@ -1,0 +1,451 @@
+import { GoodsModel } from './GoodsModel';
+
+export const campusGoodsList: GoodsModel[] = [
+  new GoodsModel(
+    'goods-001',
+    '高等数学教材上下册',
+    '教材',
+    '¥28',
+    '八成新',
+    '同济版高等数学上下册，重点章节有少量笔记，适合大一复习和期末备考。',
+    '数媒 2301 李同学',
+    '今天 09:20',
+    $r('app.media.goods_book_math'),
+    ['数学', '教材', '期末'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-002',
+    '英语四六级真题套卷',
+    '教材',
+    '¥18',
+    '九成新',
+    '包含近年四级和六级真题，听力材料和答案解析完整，适合考前刷题。',
+    '英语社团 王同学',
+    '昨天 18:40',
+    $r('app.media.goods_exam_english'),
+    ['四六级', '英语', '真题'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-003',
+    '考研政治冲刺资料',
+    '考研',
+    '¥35',
+    '九成新',
+    '考研政治冲刺背诵资料，包含选择题知识点和主观题模板，内容整理清晰。',
+    '软件 2202 陈同学',
+    '周一 12:10',
+    $r('app.media.goods_exam_politics'),
+    ['考研', '政治', '资料'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-004',
+    '蓝牙降噪耳机',
+    '数码',
+    '¥99',
+    '七成新',
+    '日常听课和通勤使用正常，续航稳定，配充电线，外壳有轻微划痕。',
+    '计科 2303 赵同学',
+    '周一 20:15',
+    $r('app.media.goods_earphone'),
+    ['耳机', '蓝牙', '数码'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-005',
+    '宿舍护眼台灯',
+    '生活',
+    '¥26',
+    '八成新',
+    '三档亮度调节，适合宿舍晚间学习，夹式底座不占桌面空间。',
+    '视觉 2301 周同学',
+    '周二 10:05',
+    $r('app.media.goods_lamp'),
+    ['台灯', '宿舍', '学习'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-006',
+    '室外篮球',
+    '运动',
+    '¥42',
+    '八成新',
+    '适合室外水泥场，弹性正常，手感较好，因换球出售。',
+    '体育部 林同学',
+    '周二 16:25',
+    $r('app.media.goods_basketball'),
+    ['篮球', '运动', '社团'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-007',
+    '机械键盘 87 键',
+    '数码',
+    '¥128',
+    '八成新',
+    '青轴机械键盘，按键正常，适合写代码和日常办公，附拔键器。',
+    '物联网 2201 郑同学',
+    '周三 11:30',
+    $r('app.media.goods_keyboard'),
+    ['键盘', '数码', '办公'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-008',
+    '书桌收纳盒套装',
+    '生活',
+    '¥15',
+    '九成新',
+    '包含笔筒、文件格和小抽屉，适合整理宿舍桌面。',
+    '环艺 2302 黄同学',
+    '周三 15:45',
+    $r('app.media.goods_storage'),
+    ['收纳', '宿舍', '生活'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-009',
+    '计算机网络教材',
+    '教材',
+    '¥22',
+    '七成新',
+    '计算机网络课程教材，含重点标注和课后题页码记录，适合课程复习。',
+    '网工 2201 孙同学',
+    '周四 09:50',
+    $r('app.media.goods_book_network'),
+    ['计算机', '教材', '网络'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-010',
+    '折叠小桌板',
+    '生活',
+    '¥20',
+    '八成新',
+    '可放在床上学习或看视频，桌腿稳定，表面有轻微使用痕迹。',
+    '数媒 2302 吴同学',
+    '周四 21:05',
+    $r('app.media.goods_table'),
+    ['桌板', '宿舍', '生活'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-011',
+    '考研数学讲义',
+    '考研',
+    '¥45',
+    '八成新',
+    '基础到强化阶段讲义，题型分类清晰，适合系统复习。',
+    '自动化 2101 何同学',
+    '周五 13:20',
+    $r('app.media.goods_exam_math'),
+    ['考研', '数学', '讲义'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-012',
+    '羽毛球拍双拍',
+    '运动',
+    '¥58',
+    '七成新',
+    '两支入门羽毛球拍，适合体育课和课余活动，附简易拍套。',
+    '羽协 刘同学',
+    '周五 17:55',
+    $r('app.media.goods_badmiton'),
+    ['羽毛球', '运动', '体育课'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-013',
+    '线性代数辅导讲义',
+    '教材',
+    '¥16',
+    '八成新',
+    '线性代数课程辅导资料，章节知识点和例题整理完整，适合期末复习使用。',
+    '信工 2302 马同学',
+    '今天 11:35',
+    $r('app.media.goods_book_math'),
+    ['线代', '教材', '复习'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-014',
+    '考研英语长难句笔记',
+    '考研',
+    '¥24',
+    '九成新',
+    '考研英语长难句分析笔记，包含真题例句和翻译思路，适合基础阶段使用。',
+    '经管 2201 许同学',
+    '今天 14:10',
+    $r('app.media.goods_exam_english'),
+    ['考研', '英语', '笔记'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-015',
+    'USB-C 扩展坞',
+    '数码',
+    '¥68',
+    '八成新',
+    '包含 HDMI、USB 和读卡器接口，适合笔记本外接显示器和课堂展示。',
+    '计科 2204 高同学',
+    '昨天 13:25',
+    $r('app.media.goods_keyboard'),
+    ['扩展坞', '电脑配件', '数码'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-016',
+    '宿舍床边置物篮',
+    '生活',
+    '¥12',
+    '九成新',
+    '可挂在床边放手机、眼镜和充电器，安装方便，适合宿舍上铺使用。',
+    '建筑 2301 胡同学',
+    '昨天 21:00',
+    $r('app.media.goods_storage'),
+    ['收纳', '宿舍', '生活'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-017',
+    '跳绳计数款',
+    '运动',
+    '¥19',
+    '八成新',
+    '计数功能正常，手柄防滑，适合体测训练和日常有氧运动。',
+    '体育社 陈同学',
+    '周一 08:40',
+    $r('app.media.goods_basketball'),
+    ['跳绳', '体测', '运动'],
+    ['bjut']
+  ),
+  new GoodsModel(
+    'goods-018',
+    '概率论课程教材',
+    '教材',
+    '¥25',
+    '七成新',
+    '概率论与数理统计教材，重点公式有标注，适合课程学习和刷题复习。',
+    '数院 2301 郭同学',
+    '周一 19:30',
+    $r('app.media.goods_book_math'),
+    ['概率论', '教材', '数学'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-019',
+    '考研专业课资料包',
+    '考研',
+    '¥52',
+    '八成新',
+    '包含专业课真题、参考答案和复习提纲，资料按年份整理，便于系统复习。',
+    '软微 2102 梁同学',
+    '周二 12:45',
+    $r('app.media.goods_exam_politics'),
+    ['考研', '专业课', '真题'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-020',
+    '无线鼠标静音款',
+    '数码',
+    '¥36',
+    '九成新',
+    '静音按键，接收器完好，适合图书馆和宿舍夜间使用。',
+    '信科 2303 朱同学',
+    '周三 10:20',
+    $r('app.media.goods_earphone'),
+    ['鼠标', '静音', '数码'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-021',
+    '桌面小风扇',
+    '生活',
+    '¥22',
+    '八成新',
+    '三档风速，可 USB 供电，适合宿舍桌面和自习室使用。',
+    '中文 2302 叶同学',
+    '周三 18:15',
+    $r('app.media.goods_lamp'),
+    ['风扇', '宿舍', '生活'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-022',
+    '瑜伽垫加厚款',
+    '运动',
+    '¥39',
+    '八成新',
+    '加厚防滑瑜伽垫，适合宿舍拉伸、社团训练和室内运动。',
+    '健身社 陆同学',
+    '周四 16:05',
+    $r('app.media.goods_badmiton'),
+    ['瑜伽垫', '健身', '运动'],
+    ['pku']
+  ),
+  new GoodsModel(
+    'goods-023',
+    '工程力学教材与习题册',
+    '教材',
+    '¥30',
+    '八成新',
+    '工程力学课程教材配套习题册，重点章节有标注，适合北理工工科课程复习。',
+    '机电 2301 张同学',
+    '今天 10:30',
+    $r('app.media.goods_book_math'),
+    ['工程力学', '教材', '工科'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-024',
+    '电路分析基础教材',
+    '教材',
+    '¥24',
+    '七成新',
+    '电路分析基础课程用书，含部分课后题页码记录，适合电子信息相关专业复习。',
+    '自动化 2202 刘同学',
+    '今天 15:20',
+    $r('app.media.goods_book_network'),
+    ['电路', '教材', '电子'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-025',
+    '线性代数复习讲义',
+    '教材',
+    '¥18',
+    '九成新',
+    '线性代数期末复习讲义，知识点和典型例题整理完整，适合考前快速梳理。',
+    '计算机 2304 赵同学',
+    '昨天 09:45',
+    $r('app.media.goods_book_math'),
+    ['线代', '教材', '复习'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-026',
+    '考研数学强化笔记',
+    '考研',
+    '¥48',
+    '八成新',
+    '考研数学强化阶段笔记，包含高数、线代和概率题型总结，适合二轮复习。',
+    '宇航 2101 陈同学',
+    '昨天 18:10',
+    $r('app.media.goods_exam_math'),
+    ['考研', '数学', '笔记'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-027',
+    '考研英语阅读真题解析',
+    '考研',
+    '¥26',
+    '九成新',
+    '考研英语阅读真题解析资料，按题型整理定位方法和长难句分析。',
+    '管理 2201 周同学',
+    '周一 13:05',
+    $r('app.media.goods_exam_english'),
+    ['考研', '英语', '阅读'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-028',
+    '静音无线键鼠套装',
+    '数码',
+    '¥58',
+    '八成新',
+    '无线键盘和鼠标套装，按键安静，适合宿舍夜间写代码和做实验报告。',
+    '软件 2302 吴同学',
+    '周一 20:35',
+    $r('app.media.goods_keyboard'),
+    ['键鼠', '数码', '宿舍'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-029',
+    'USB-C 多口扩展坞',
+    '数码',
+    '¥72',
+    '八成新',
+    '带 HDMI、USB 和读卡接口，适合笔记本外接显示器、投影和实验室临时展示。',
+    '光电 2203 孙同学',
+    '周二 11:25',
+    $r('app.media.goods_keyboard'),
+    ['扩展坞', '电脑配件', '数码'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-030',
+    '宿舍折叠小桌',
+    '生活',
+    '¥22',
+    '八成新',
+    '可放在床上学习或看视频，桌腿稳定，适合宿舍上铺和临时自习使用。',
+    '设计 2301 郑同学',
+    '周二 19:40',
+    $r('app.media.goods_table'),
+    ['小桌', '宿舍', '生活'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-031',
+    '护眼台灯夹式款',
+    '生活',
+    '¥34',
+    '九成新',
+    '三档亮度调节，夹式底座节省桌面空间，适合宿舍晚间学习。',
+    '材料 2202 王同学',
+    '周三 08:55',
+    $r('app.media.goods_lamp'),
+    ['台灯', '宿舍', '学习'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-032',
+    '羽毛球拍单拍',
+    '运动',
+    '¥45',
+    '七成新',
+    '入门羽毛球拍，适合体育课、社团活动和日常锻炼，附简易拍套。',
+    '体育社 李同学',
+    '周三 16:20',
+    $r('app.media.goods_badmiton'),
+    ['羽毛球', '运动', '社团'],
+    ['bit']
+  ),
+  new GoodsModel(
+    'goods-033',
+    '室外篮球耐磨款',
+    '运动',
+    '¥50',
+    '八成新',
+    '适合室外水泥场，弹性正常，手感较好，因更换新球出手。',
+    '车辆 2303 胡同学',
+    '周四 17:30',
+    $r('app.media.goods_basketball'),
+    ['篮球', '运动', '球类'],
+    ['bit']
+  )
+];
+
+export function findGoodsById(id: string): GoodsModel | undefined {
+  return campusGoodsList.find((item: GoodsModel) => item.id === id);
+}
+
+export function filterGoods(keyword: string, category: string): GoodsModel[] {
+  return campusGoodsList.filter((item: GoodsModel) => item.matches(keyword, category));
+}
+
+export function filterGoodsByRegion(keyword: string, category: string, regionId: string): GoodsModel[] {
+  if (regionId.length === 0 || regionId === 'all') {
+    return filterGoods(keyword, category);
+  }
+
+  return campusGoodsList.filter((item: GoodsModel) => {
+    return item.regionIds.includes(regionId) && item.matches(keyword, category);
+  });
+}

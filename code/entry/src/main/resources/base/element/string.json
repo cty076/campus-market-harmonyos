@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "校园二手好物主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "校园二手好物应用入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "校园二手好物"
+    },
+    {
+      "name": "location_permission_reason",
+      "value": "用于识别你所在的校园区域，并推荐附近适合交易的二手商品"
+    }
+  ]
+}
