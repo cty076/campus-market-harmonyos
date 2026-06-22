@@ -290,6 +290,7 @@ export struct RegionRecommendPanel {
         Blank()
           .width(16)
       }
+      .padding({ bottom: 14 })
     }
     .scrollable(ScrollDirection.Horizontal)
     .scrollBar(BarState.Auto)
