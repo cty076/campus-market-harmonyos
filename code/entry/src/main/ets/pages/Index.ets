@@ -21,6 +21,7 @@ struct Index {
   @State locationStatus: LocationStatus = LocationStatus.READY;
   @State locationMessage: string = '点击重新定位后，将使用高德定位识别你所在的校园区域';
   @State recommendGoodsCount: number = campusGoodsList.length;
+  @State isRegionPanelExpanded: boolean = false;
 
   aboutToAppear(): void {
     this.updateRegionSummary();
@@ -120,11 +121,15 @@ struct Index {
           message: this.locationMessage,
           goodsCount: this.recommendGoodsCount,
           selectedRegionId: this.regionId,
+          isExpanded: this.isRegionPanelExpanded,
           onLocate: () => {
             this.locate();
           },
           onSelectRegion: (regionId: string) => {
             this.applyManualRegion(regionId);
+          },
+          onToggleExpanded: () => {
+            this.isRegionPanelExpanded = !this.isRegionPanelExpanded;
           }
         })
           .margin({ bottom: 10 })
