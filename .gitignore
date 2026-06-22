@@ -30,3 +30,6 @@ download_preview_sheet.jpg
 # Local/private API config variants
 *.local.ets
 *.local.json
+
+# Local assignment guidance draft
+作业完成指南.md
