@@ -1,30 +1,49 @@
 # 校园二手好物
 
-HarmonyOS ArkTS 课程大作业项目，主题为“位置感知的校园二手好物推荐与 AI 定价助手”。
+HarmonyOS ArkTS 课程大作业项目，主题为“位置感知的校园二手好物推荐与 AI 定价助手”。项目聚焦校园二手交易中的一个精细功能链路：根据用户当前位置识别所在校园区域，优先展示适合同校当面交易的商品，并在商品详情中结合市场数据和大模型能力给出估价建议。
 
-核心功能：
+## 核心功能
 
-- 校园二手商品列表、分类、搜索、下拉刷新、到底提示
-- 商品详情、收藏、联系卖家反馈
-- 基于高德定位和校园多边形区域的本校商品推荐
-- 基于 DeepSeek 的校园二手商品 AI 估价
-- AI 估价结合当前学校、商品所属学校、同类商品均价和挂牌价生成建议
+- 校园二手商品列表、分类 Tabs、关键词搜索、下拉刷新、到底提示
+- 商品详情、商品所属学校展示、同校/跨校/区域外交易提示
+- 收藏页和商品收藏状态切换
+- 基于高德 Web API 的当前位置获取与高德坐标转换
+- 基于校园多边形区域的学校识别，当前支持北京工业大学、北京大学、北京理工大学
+- 基于 DeepSeek 的 AI 估价助手，结合挂牌价、同类均价、学校位置和交易适配性生成建议
+- 33 个商品均已配置 256x256 专属商品图片，减少占位图重复感
 
-## 目录
+## 目录结构
 
 ```text
-code/                  HarmonyOS 源码工程
-goods_item_images/     商品图片整理结果
-docs/                  实施计划和设计过程文档
-作业完成指南.md
-项目介绍与文件说明.md
+code/                  HarmonyOS ArkTS 源码工程
+goods_item_images/     商品图片整理结果，包含 goods-001.png 到 goods-033.png
+docs/                  设计说明、实施计划和开发过程文档
+reference/             课程参考工程和资料
+output/                报告、视频或导出文件可放在这里
+作业完成指南.md          面向课程提交的完成路线和报告建议
+项目介绍与文件说明.md     项目功能、架构和主要文件说明
 ```
+
+## 运行与验证
+
+结构校验脚本：
+
+```powershell
+cd D:\mobile_app\final_work_wzq\code
+node scripts\verify-campus-market.mjs
+```
+
+预期输出：
+
+```text
+CampusMarket verification passed.
+```
+
+DevEco Studio 中打开 `code/` 目录即可构建和运行。若使用命令行构建，需要根据本机 DevEco Studio 安装路径配置 SDK 和 Hvigor。
 
 ## API Key
 
-公开仓库中的 `code/entry/src/main/ets/common/ApiConfig.ets` 使用占位 Key。
-
-本地运行真实高德定位和 DeepSeek 估价前，需要把以下字段替换为自己的 Key：
+公开仓库中的 `code/entry/src/main/ets/common/ApiConfig.ets` 使用占位 Key。真实运行定位和 AI 估价前，需要配置自己的：
 
 ```ts
 AMAP_API_KEY
@@ -33,3 +52,13 @@ DEEPSEEK_API_KEY
 ```
 
 不要把真实 Key 提交到公开仓库。
+
+## 提交说明
+
+课程最终提交建议包含：
+
+```text
+1. code/ 鸿蒙源代码工程
+2. 课程设计报告 Word 文档，不少于 2000 字
+3. 配套讲解视频 MP4，不超过 50M
+```
