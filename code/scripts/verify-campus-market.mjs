@@ -123,6 +123,12 @@ const requiredText = [
   ['entry/src/main/resources/base/profile/main_pages.json', 'pages/PricingAssistantPage'],
 ];
 
+for (let index = 1; index <= 22; index += 1) {
+  const padded = String(index).padStart(3, '0');
+  requiredFiles.push(`entry/src/main/resources/base/media/goods_${padded}.png`);
+  requiredText.push(['entry/src/main/ets/viewmodel/CampusGoodsData.ets', `$r('app.media.goods_${padded}')`]);
+}
+
 const forbiddenText = [
   ['entry/src/main/ets/pages/Index.ets', 'simulateDormitoryLocation'],
   ['entry/src/main/ets/pages/Index.ets', 'simulateStudyLocation'],

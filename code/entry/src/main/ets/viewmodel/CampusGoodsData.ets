@@ -10,7 +10,7 @@ export const campusGoodsList: GoodsModel[] = [
     '同济版高等数学上下册，重点章节有少量笔记，适合大一复习和期末备考。',
     '数媒 2301 李同学',
     '今天 09:20',
-    $r('app.media.goods_book_math'),
+    $r('app.media.goods_001'),
     ['数学', '教材', '期末'],
     ['pku']
   ),
@@ -23,7 +23,7 @@ export const campusGoodsList: GoodsModel[] = [
     '包含近年四级和六级真题，听力材料和答案解析完整，适合考前刷题。',
     '英语社团 王同学',
     '昨天 18:40',
-    $r('app.media.goods_exam_english'),
+    $r('app.media.goods_002'),
     ['四六级', '英语', '真题'],
     ['bjut']
   ),
@@ -36,7 +36,7 @@ export const campusGoodsList: GoodsModel[] = [
     '考研政治冲刺背诵资料，包含选择题知识点和主观题模板，内容整理清晰。',
     '软件 2202 陈同学',
     '周一 12:10',
-    $r('app.media.goods_exam_politics'),
+    $r('app.media.goods_003'),
     ['考研', '政治', '资料'],
     ['bjut']
   ),
@@ -49,7 +49,7 @@ export const campusGoodsList: GoodsModel[] = [
     '日常听课和通勤使用正常，续航稳定，配充电线，外壳有轻微划痕。',
     '计科 2303 赵同学',
     '周一 20:15',
-    $r('app.media.goods_earphone'),
+    $r('app.media.goods_004'),
     ['耳机', '蓝牙', '数码'],
     ['pku']
   ),
@@ -62,7 +62,7 @@ export const campusGoodsList: GoodsModel[] = [
     '三档亮度调节，适合宿舍晚间学习，夹式底座不占桌面空间。',
     '视觉 2301 周同学',
     '周二 10:05',
-    $r('app.media.goods_lamp'),
+    $r('app.media.goods_005'),
     ['台灯', '宿舍', '学习'],
     ['bjut']
   ),
@@ -75,7 +75,7 @@ export const campusGoodsList: GoodsModel[] = [
     '适合室外水泥场，弹性正常，手感较好，因换球出售。',
     '体育部 林同学',
     '周二 16:25',
-    $r('app.media.goods_basketball'),
+    $r('app.media.goods_006'),
     ['篮球', '运动', '社团'],
     ['bjut']
   ),
@@ -88,7 +88,7 @@ export const campusGoodsList: GoodsModel[] = [
     '青轴机械键盘，按键正常，适合写代码和日常办公，附拔键器。',
     '物联网 2201 郑同学',
     '周三 11:30',
-    $r('app.media.goods_keyboard'),
+    $r('app.media.goods_007'),
     ['键盘', '数码', '办公'],
     ['bjut']
   ),
@@ -101,7 +101,7 @@ export const campusGoodsList: GoodsModel[] = [
     '包含笔筒、文件格和小抽屉，适合整理宿舍桌面。',
     '环艺 2302 黄同学',
     '周三 15:45',
-    $r('app.media.goods_storage'),
+    $r('app.media.goods_008'),
     ['收纳', '宿舍', '生活'],
     ['pku']
   ),
@@ -114,7 +114,7 @@ export const campusGoodsList: GoodsModel[] = [
     '计算机网络课程教材，含重点标注和课后题页码记录，适合课程复习。',
     '网工 2201 孙同学',
     '周四 09:50',
-    $r('app.media.goods_book_network'),
+    $r('app.media.goods_009'),
     ['计算机', '教材', '网络'],
     ['bjut']
   ),
@@ -127,7 +127,7 @@ export const campusGoodsList: GoodsModel[] = [
     '可放在床上学习或看视频，桌腿稳定，表面有轻微使用痕迹。',
     '数媒 2302 吴同学',
     '周四 21:05',
-    $r('app.media.goods_table'),
+    $r('app.media.goods_010'),
     ['桌板', '宿舍', '生活'],
     ['pku']
   ),
@@ -140,7 +140,7 @@ export const campusGoodsList: GoodsModel[] = [
     '基础到强化阶段讲义，题型分类清晰，适合系统复习。',
     '自动化 2101 何同学',
     '周五 13:20',
-    $r('app.media.goods_exam_math'),
+    $r('app.media.goods_011'),
     ['考研', '数学', '讲义'],
     ['pku']
   ),
@@ -153,7 +153,7 @@ export const campusGoodsList: GoodsModel[] = [
     '两支入门羽毛球拍，适合体育课和课余活动，附简易拍套。',
     '羽协 刘同学',
     '周五 17:55',
-    $r('app.media.goods_badmiton'),
+    $r('app.media.goods_012'),
     ['羽毛球', '运动', '体育课'],
     ['pku']
   ),
@@ -166,7 +166,7 @@ export const campusGoodsList: GoodsModel[] = [
     '线性代数课程辅导资料，章节知识点和例题整理完整，适合期末复习使用。',
     '信工 2302 马同学',
     '今天 11:35',
-    $r('app.media.goods_book_math'),
+    $r('app.media.goods_013'),
     ['线代', '教材', '复习'],
     ['bjut']
   ),
@@ -179,7 +179,7 @@ export const campusGoodsList: GoodsModel[] = [
     '考研英语长难句分析笔记，包含真题例句和翻译思路，适合基础阶段使用。',
     '经管 2201 许同学',
     '今天 14:10',
-    $r('app.media.goods_exam_english'),
+    $r('app.media.goods_014'),
     ['考研', '英语', '笔记'],
     ['bjut']
   ),
@@ -192,7 +192,7 @@ export const campusGoodsList: GoodsModel[] = [
     '包含 HDMI、USB 和读卡器接口，适合笔记本外接显示器和课堂展示。',
     '计科 2204 高同学',
     '昨天 13:25',
-    $r('app.media.goods_keyboard'),
+    $r('app.media.goods_015'),
     ['扩展坞', '电脑配件', '数码'],
     ['bjut']
   ),
@@ -205,7 +205,7 @@ export const campusGoodsList: GoodsModel[] = [
     '可挂在床边放手机、眼镜和充电器，安装方便，适合宿舍上铺使用。',
     '建筑 2301 胡同学',
     '昨天 21:00',
-    $r('app.media.goods_storage'),
+    $r('app.media.goods_016'),
     ['收纳', '宿舍', '生活'],
     ['bjut']
   ),
@@ -218,7 +218,7 @@ export const campusGoodsList: GoodsModel[] = [
     '计数功能正常，手柄防滑，适合体测训练和日常有氧运动。',
     '体育社 陈同学',
     '周一 08:40',
-    $r('app.media.goods_basketball'),
+    $r('app.media.goods_017'),
     ['跳绳', '体测', '运动'],
     ['bjut']
   ),
@@ -231,7 +231,7 @@ export const campusGoodsList: GoodsModel[] = [
     '概率论与数理统计教材，重点公式有标注，适合课程学习和刷题复习。',
     '数院 2301 郭同学',
     '周一 19:30',
-    $r('app.media.goods_book_math'),
+    $r('app.media.goods_018'),
     ['概率论', '教材', '数学'],
     ['pku']
   ),
@@ -244,7 +244,7 @@ export const campusGoodsList: GoodsModel[] = [
     '包含专业课真题、参考答案和复习提纲，资料按年份整理，便于系统复习。',
     '软微 2102 梁同学',
     '周二 12:45',
-    $r('app.media.goods_exam_politics'),
+    $r('app.media.goods_019'),
     ['考研', '专业课', '真题'],
     ['pku']
   ),
@@ -257,7 +257,7 @@ export const campusGoodsList: GoodsModel[] = [
     '静音按键，接收器完好，适合图书馆和宿舍夜间使用。',
     '信科 2303 朱同学',
     '周三 10:20',
-    $r('app.media.goods_earphone'),
+    $r('app.media.goods_020'),
     ['鼠标', '静音', '数码'],
     ['pku']
   ),
@@ -270,7 +270,7 @@ export const campusGoodsList: GoodsModel[] = [
     '三档风速，可 USB 供电，适合宿舍桌面和自习室使用。',
     '中文 2302 叶同学',
     '周三 18:15',
-    $r('app.media.goods_lamp'),
+    $r('app.media.goods_021'),
     ['风扇', '宿舍', '生活'],
     ['pku']
   ),
@@ -283,7 +283,7 @@ export const campusGoodsList: GoodsModel[] = [
     '加厚防滑瑜伽垫，适合宿舍拉伸、社团训练和室内运动。',
     '健身社 陆同学',
     '周四 16:05',
-    $r('app.media.goods_badmiton'),
+    $r('app.media.goods_022'),
     ['瑜伽垫', '健身', '运动'],
     ['pku']
   ),
