@@ -296,7 +296,7 @@ export const campusGoodsList: GoodsModel[] = [
     '工程力学课程教材配套习题册，重点章节有标注，适合北理工工科课程复习。',
     '机电 2301 张同学',
     '今天 10:30',
-    $r('app.media.goods_book_math'),
+    $r('app.media.goods_023'),
     ['工程力学', '教材', '工科'],
     ['bit']
   ),
@@ -309,7 +309,7 @@ export const campusGoodsList: GoodsModel[] = [
     '电路分析基础课程用书，含部分课后题页码记录，适合电子信息相关专业复习。',
     '自动化 2202 刘同学',
     '今天 15:20',
-    $r('app.media.goods_book_network'),
+    $r('app.media.goods_024'),
     ['电路', '教材', '电子'],
     ['bit']
   ),
@@ -322,7 +322,7 @@ export const campusGoodsList: GoodsModel[] = [
     '线性代数期末复习讲义，知识点和典型例题整理完整，适合考前快速梳理。',
     '计算机 2304 赵同学',
     '昨天 09:45',
-    $r('app.media.goods_book_math'),
+    $r('app.media.goods_025'),
     ['线代', '教材', '复习'],
     ['bit']
   ),
@@ -335,7 +335,7 @@ export const campusGoodsList: GoodsModel[] = [
     '考研数学强化阶段笔记，包含高数、线代和概率题型总结，适合二轮复习。',
     '宇航 2101 陈同学',
     '昨天 18:10',
-    $r('app.media.goods_exam_math'),
+    $r('app.media.goods_026'),
     ['考研', '数学', '笔记'],
     ['bit']
   ),
@@ -348,7 +348,7 @@ export const campusGoodsList: GoodsModel[] = [
     '考研英语阅读真题解析资料，按题型整理定位方法和长难句分析。',
     '管理 2201 周同学',
     '周一 13:05',
-    $r('app.media.goods_exam_english'),
+    $r('app.media.goods_027'),
     ['考研', '英语', '阅读'],
     ['bit']
   ),
@@ -361,7 +361,7 @@ export const campusGoodsList: GoodsModel[] = [
     '无线键盘和鼠标套装，按键安静，适合宿舍夜间写代码和做实验报告。',
     '软件 2302 吴同学',
     '周一 20:35',
-    $r('app.media.goods_keyboard'),
+    $r('app.media.goods_028'),
     ['键鼠', '数码', '宿舍'],
     ['bit']
   ),
@@ -374,7 +374,7 @@ export const campusGoodsList: GoodsModel[] = [
     '带 HDMI、USB 和读卡接口，适合笔记本外接显示器、投影和实验室临时展示。',
     '光电 2203 孙同学',
     '周二 11:25',
-    $r('app.media.goods_keyboard'),
+    $r('app.media.goods_029'),
     ['扩展坞', '电脑配件', '数码'],
     ['bit']
   ),
@@ -387,7 +387,7 @@ export const campusGoodsList: GoodsModel[] = [
     '可放在床上学习或看视频，桌腿稳定，适合宿舍上铺和临时自习使用。',
     '设计 2301 郑同学',
     '周二 19:40',
-    $r('app.media.goods_table'),
+    $r('app.media.goods_030'),
     ['小桌', '宿舍', '生活'],
     ['bit']
   ),
@@ -400,7 +400,7 @@ export const campusGoodsList: GoodsModel[] = [
     '三档亮度调节，夹式底座节省桌面空间，适合宿舍晚间学习。',
     '材料 2202 王同学',
     '周三 08:55',
-    $r('app.media.goods_lamp'),
+    $r('app.media.goods_031'),
     ['台灯', '宿舍', '学习'],
     ['bit']
   ),
@@ -413,7 +413,7 @@ export const campusGoodsList: GoodsModel[] = [
     '入门羽毛球拍，适合体育课、社团活动和日常锻炼，附简易拍套。',
     '体育社 李同学',
     '周三 16:20',
-    $r('app.media.goods_badmiton'),
+    $r('app.media.goods_032'),
     ['羽毛球', '运动', '社团'],
     ['bit']
   ),
@@ -426,7 +426,7 @@ export const campusGoodsList: GoodsModel[] = [
     '适合室外水泥场，弹性正常，手感较好，因更换新球出手。',
     '车辆 2303 胡同学',
     '周四 17:30',
-    $r('app.media.goods_basketball'),
+    $r('app.media.goods_033'),
     ['篮球', '运动', '球类'],
     ['bit']
   )
