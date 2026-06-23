@@ -9,6 +9,7 @@ import { GoodsCardComponent } from './GoodsCardComponent';
 export struct GoodsListComponent {
   @ObjectLink dataSource: CampusGoodsDataSource;
   @Prop currentRegionId: string = 'all';
+  @Prop hasLocatedPoint: boolean = false;
   onLoadMore: () => void = () => {};
 
   build() {
@@ -19,7 +20,11 @@ export struct GoodsListComponent {
         List({ space: LIST_SPACE }) {
           LazyForEach(this.dataSource, (item: GoodsModel) => {
             ListItem() {
-              GoodsCardComponent({ goods: item, currentRegionId: this.currentRegionId })
+              GoodsCardComponent({
+                goods: item,
+                currentRegionId: this.currentRegionId,
+                hasLocatedPoint: this.hasLocatedPoint
+              })
             }
           }, (item: GoodsModel) => item.id)
 

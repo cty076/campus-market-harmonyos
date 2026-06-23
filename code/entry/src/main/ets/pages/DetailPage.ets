@@ -26,11 +26,13 @@ struct DetailPage {
   @State isFavorite: boolean = false;
   @State feedbackMessage: string = '';
   @State currentRegionId: string = 'all';
+  @State hasLocatedPoint: boolean = false;
 
   aboutToAppear(): void {
     const params = this.getUIContext().getRouter().getParams() as Record<string, string>;
     const goodsId = params === undefined ? '' : params.goodsId;
     this.currentRegionId = params === undefined || params.currentRegionId === undefined ? 'all' : params.currentRegionId;
+    this.hasLocatedPoint = params !== undefined && params.hasLocatedPoint === 'true';
     this.goods = findGoodsById(goodsId);
     if (this.goods !== undefined) {
       this.isFavorite = FavoriteStore.isFavorite(this.goods.id);
@@ -79,6 +81,9 @@ struct DetailPage {
 
   private tradeMatchText(goods: GoodsModel): string {
     if (this.currentRegionId === 'all') {
+      if (this.hasLocatedPoint) {
+        return '当前位置不在已划定校园区域内，建议提前沟通交易地点和取货时间。';
+      }
       return '定位后可判断该商品是否适合同校当面交易。';
     }
 

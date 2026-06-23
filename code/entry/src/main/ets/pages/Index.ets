@@ -21,6 +21,7 @@ struct Index {
   @State locationStatus: LocationStatus = LocationStatus.READY;
   @State locationMessage: string = '点击重新定位后，将使用高德定位识别你所在的校园区域';
   @State recommendGoodsCount: number = campusGoodsList.length;
+  @State hasLocatedPoint: boolean = false;
   @State isRegionPanelExpanded: boolean = false;
 
   aboutToAppear(): void {
@@ -38,6 +39,7 @@ struct Index {
     this.locationMessage = result.message;
 
     if (result.point === undefined) {
+      this.hasLocatedPoint = false;
       this.currentRegion = defaultRegion;
       this.locatedRegionId = defaultRegion.id;
       this.regionId = defaultRegion.id;
@@ -46,6 +48,7 @@ struct Index {
     }
 
     const matchedRegion = findRegionByPoint(result.point, campusRegions);
+    this.hasLocatedPoint = true;
     this.currentRegion = matchedRegion === undefined ? defaultRegion : matchedRegion;
     this.locatedRegionId = this.currentRegion.id;
     this.regionId = this.currentRegion.id;
@@ -121,6 +124,7 @@ struct Index {
           message: this.locationMessage,
           goodsCount: this.recommendGoodsCount,
           selectedRegionId: this.regionId,
+          hasLocatedPoint: this.hasLocatedPoint,
           isExpanded: this.isRegionPanelExpanded,
           onLocate: () => {
             this.locate();
@@ -134,7 +138,12 @@ struct Index {
         })
           .margin({ bottom: 10 })
 
-        CampusTabBar({ keyword: $keyword, regionId: $regionId, currentRegionId: this.locatedRegionId })
+        CampusTabBar({
+          keyword: $keyword,
+          regionId: $regionId,
+          currentRegionId: this.locatedRegionId,
+          hasLocatedPoint: this.hasLocatedPoint
+        })
       }
       .width(FULL_SIZE)
       .height(FULL_SIZE)

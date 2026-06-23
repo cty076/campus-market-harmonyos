@@ -8,6 +8,7 @@ export struct CampusTabBar {
   @Link @Watch('onKeywordChange') keyword: string;
   @Link @Watch('onRegionChange') regionId: string;
   @Prop currentRegionId: string = 'all';
+  @Prop hasLocatedPoint: boolean = false;
   @State currentIndex: number = 0;
   @State refreshStatus: boolean = false;
   @State currentCategory: string = '全部';
@@ -88,6 +89,7 @@ export struct CampusTabBar {
             GoodsListComponent({
               dataSource: this.dataSource,
               currentRegionId: this.currentRegionId,
+              hasLocatedPoint: this.hasLocatedPoint,
               onLoadMore: () => {
                 this.dataSource.loadMore();
               }

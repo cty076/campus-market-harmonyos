@@ -19,6 +19,7 @@ export struct RegionRecommendPanel {
   @Prop message: string = '点击定位后，将根据你所在校园区域推荐商品';
   @Prop goodsCount: number = 0;
   @Prop selectedRegionId: string = 'all';
+  @Prop hasLocatedPoint: boolean = false;
   @Prop isExpanded: boolean = false;
   onLocate: () => void = () => {};
   onSelectRegion: (regionId: string) => void = (_regionId: string) => {};
@@ -43,7 +44,7 @@ export struct RegionRecommendPanel {
 
   private tradeJudgementText(): string {
     if (this.currentRegion.id === defaultRegion.id) {
-      return '定位后判断';
+      return this.hasLocatedPoint ? '区域外' : '定位后判断';
     }
 
     if (this.selectedRegionId === defaultRegion.id) {
@@ -59,6 +60,10 @@ export struct RegionRecommendPanel {
 
   private panelHintText(): string {
     if (this.currentRegion.id === defaultRegion.id) {
+      if (this.hasLocatedPoint) {
+        return '已获取当前位置，但不在已划定校园区域内，当前展示全部商品。';
+      }
+
       return '定位后，商品详情可判断同校或跨校交易。';
     }
 

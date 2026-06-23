@@ -18,6 +18,7 @@ import { FavoriteStore } from '../viewmodel/FavoriteStore';
 export struct GoodsCardComponent {
   goods: GoodsModel = campusGoodsList[0];
   @Prop currentRegionId: string = 'all';
+  @Prop hasLocatedPoint: boolean = false;
 
   build() {
     Row() {
@@ -90,7 +91,8 @@ export struct GoodsCardComponent {
         url: 'pages/DetailPage',
         params: {
           goodsId: this.goods.id,
-          currentRegionId: this.currentRegionId
+          currentRegionId: this.currentRegionId,
+          hasLocatedPoint: this.hasLocatedPoint ? 'true' : 'false'
         }
       });
     })
