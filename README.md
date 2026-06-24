@@ -50,5 +50,3 @@ AMAP_API_KEY
 AMAP_WEB_SERVICE_API_KEY
 DEEPSEEK_API_KEY
 ```
-
-不要把真实 Key 提交到公开仓库。
