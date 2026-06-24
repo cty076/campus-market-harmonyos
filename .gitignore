@@ -25,14 +25,15 @@ reference/
 goods_item_images/unmatched/
 download_first22_sheet.jpg
 download_preview_sheet.jpg
-《移动应用开发》课程大作业v2026*.pdf
+*.pdf
 
 # Local/private API config variants
 *.local.ets
 *.local.json
 
-# Local assignment guidance draft
-作业完成指南.md
+# Local report drafts
+report/
+*.docx
 
 # Local Codex/generated preview artifacts
 .codex-python-packages/
